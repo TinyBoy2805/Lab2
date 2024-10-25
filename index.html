@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+   <header class="header">
+
+    <div class="logo-container">
+        <i class='bx bx-code-alt'></i>
+        <span id="logo">MyWebsite</span>
+    </div>
+
+        <nav id="nav">
+            <a href="#" class="nav-tab active">Home</a>
+            <a href="#" class="nav-tab ">Exercises</a>
+            <a href="#" class="nav-tab ">About</a>
+        </nav>
+
+        <nav id="login-nav">
+            <a href="#" id="login-button">Login</a>
+        </nav>
+
+   </header>
+
+    
+    <div class="wrapper">
+
+         <div class="form-box">
+
+                <button id="close-btn">&times;</button>
+                <h1>Login</h1>
+                <form action="#" id="name">
+                    <input type="text" placeholder="Username">
+                </form>
+
+                <form action="#" id="password">
+                    <input type="password" placeholder="Password">
+                </form>
+
+                <form action="#" id="check-remember">
+                    <input type="checkbox" id="check">
+                    <label for="check">Remember me</label>
+                    <a href="#" id="a-forgot">Forgot Password</a>
+                </form>
+
+                <form action="#" id="login-submit">
+                    <button>Login</button>
+                </form>
+                
+                <form action="#" id="register">
+                    <label>Don't have an account?</label>
+                    <a href="#" id="a-register">Register</a>
+      </form>
+        </div>
+
+         <div class="form-box2">
+            <button id="close-btn2">&times;</button>
+
+            <h1>Registration</h1>
+
+            <div class="form-container">
+                <form action="#" id="mail">
+                    <input type="email" placeholder="Email">
+                </form>
+    
+                <form action="#" id="name">
+                    <input type="text" placeholder="Username">
+                </form>
+    
+                <form action="#" id="password">
+                    <input type="password" placeholder="Password">
+                </form>
+    
+                <form action="#" id="confirm-password">
+                    <input type="password" placeholder="Confirm Password">
+                </form>
+    
+            </div>
+
+            <form action="#" id="check-condition">
+                <input type="checkbox" id="check2">
+                <label for="check2">I have read and agreed with the terms and conditions</label>
+            </form>
+
+            <form action="#" id="submit">
+                <button>Submit</button>
+            </form>
+            
+            <form action="#" id="register">
+                <label>Already have an account?</label>
+                <a href="#" id="a-login">Login</a>
+            </form>
+     </div>
+
+
+     <div class="form-box3">
+        <button id="close-btn3">&times;</button>
+
+        <div class="form-container">
+            <h1>Forgot Password</h1>
+            <form action="#">
+                <input type="email" id="email" name="email" placeholder="Email">
+                <button id="sendPass">Send Password</button>
+                <a href="#" id="backLogin">Back to Login</a>
+            </form>
+        </div>
+     </div>
+
+    </div>
+
+
+   <section id="home" class="section-container active">
+        <div class="home-content">
+            <h1>Welcome to My Website</h1>
+            <p>We offer a variety of solutions tailored to your needs. Join us on a journey to explore innovative ideas and achieve excellence together.</p>
+            <a href="#" class="home-button">Learn More</a>
+        </div>
+        <div class="home-image">
+            <img src="https://i.pinimg.com/564x/49/92/c5/4992c5ba2ce5eeee868f1f9e976a3f3a.jpg" alt="chill cat">
+        </div>
+   </section>
+
+
+
+   <section id="exercises" class="section-container ">
+
+
+        <button id="open">☰</button>
+       <div class="blur-screen">
+            <div class="side-bar">
+                <span>Exercises</span>
+                <nav id="ex-nav">
+                        <a href="#" class="ex-tab">exercise 1</a>
+                        <a href="#" class="ex-tab">exercise 2</a>
+                        <a href="#" class="ex-tab">exercise 3</a>
+                        <a href="#" class="ex-tab">exercise 4</a>
+                </nav>
+            </div>
+
+       </div>
+
+        
+        <div class="type-container">
+            <div id="title"></div>
+            <textarea></textarea>
+            <button id="submit-code">Submit</button>
+        </div>
+
+        <div class="submit-answer">
+                <button id="close-ans">&times;</button>
+                <h3>Score</h3>
+                <ul>
+                    <li>Test 1: <span>✔ Pass</span></li>
+                    <li>Test 2: <span>✔ Pass</span></li>
+                    <li>Test 3: <span>✖ Fail</span></li>
+                    <li>Test 4: <span>✔ Pass</span></li>
+                    <li>Test 5: <span>✔ Pass</span></li>
+                    <li>Test 6: <span>✖ Pass</span></li>
+                    <li>Test 7: <span>✔ Pass</span></li>
+                    <li>Test 8: <span>✔ Pass</span></li>
+                    <li>Test 9: <span>✔ Pass</span></li>
+                    <li>Test 10: <span>✔ Pass</span></li>
+                </ul>
+                
+        </div>
+
+     
+   </section>
+
+
+
+   <section id="about" class="section-container">
+    <div class="intro-container">
+        <h1>Giới Thiệu Bản Thân</h1>
+        <p>Xin chào, mình là <span class="highlight">TinyBoy</span>, hiện đang là sinh viên năm hai ngành Công nghệ Thông tin tại trường đại học<span class="highlight"> Nông Lâm</span>. Mình rất đam mê lập trình và luôn tìm kiếm cơ hội để học hỏi, nâng cao kỹ năng.</p>
+
+        <p>Trong thời gian qua, mình đã tập trung vào việc học lập trình web, đặc biệt là sử dụng các công nghệ như <span class="highlight">React</span> và <span class="highlight">Tailwind CSS</span> để xây dựng các ứng dụng hiện đại. Mình cũng có sự quan tâm đặc biệt đến phát triển game, và hiện tại mình đang tìm hiểu cách kết hợp <span class="highlight">React</span> và <span class="highlight">Phaser 3</span> để tạo ra các trò chơi trên nền tảng web.</p>
+
+        <p>Ngoài việc học, mình thích tham gia các dự án nhỏ, từ các ứng dụng quản lý thời gian cho đến các trò chơi nhỏ mang tính giải trí. Mình tin rằng thực hành là cách tốt nhất để tiếp thu kiến thức và phát triển tư duy lập trình. Hiện tại, mình cũng đang tích cực tham gia vào các khóa học trực tuyến và các dự án cá nhân để rèn luyện thêm kỹ năng của mình.</p>
+
+        <p>Mục tiêu của mình trong tương lai gần là hoàn thiện kiến thức và kỹ năng lập trình web, đồng thời tìm kiếm cơ hội tham gia các dự án thực tế để tích lũy kinh nghiệm. Mình rất mong muốn có cơ hội được hợp tác và làm việc cùng với các bạn có cùng đam mê để cùng nhau phát triển.</p>
+    </div>
+   </section>
+
+
+
+
+
+
+
+
+</body>
+<script src="main.js" defer></script>
+</html>
